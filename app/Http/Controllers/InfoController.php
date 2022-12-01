@@ -17,7 +17,8 @@ class InfoController extends Controller
         $request ->validate([
             'username' => 'required | max:255 | lowercase',
             'email' => 'required | unique:infos',
-            'password'=> 'required |'
+            'password'=> 'required | min:8 | max:20',
+//            'image'=> 'required |'
 
         ]);
 

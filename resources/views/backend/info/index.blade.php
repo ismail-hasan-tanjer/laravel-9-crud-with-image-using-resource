@@ -6,7 +6,7 @@
     <div class="container">
         <img src="" alt="" >
         <div class="row justify-content-center">
-            <div class="col-8 p-5 bg-primary mt-3">
+            <div class="col-8 p-5 bg-info mt-3">
                 <h1>Add Your Info</h1>
                 <h1>{{Session::get('notify')}}</h1>
                 <form action="{{route('storeInfo')}}" method="POST" enctype="multipart/form-data">

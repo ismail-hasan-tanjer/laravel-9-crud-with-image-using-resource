@@ -3,7 +3,7 @@
 @section('title','Home')
 
 @section('body')
-    <h1>Home</h1>
+    <h1 class="container">Home</h1>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
